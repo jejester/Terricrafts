@@ -2,6 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: Jost;
+    src: url('../../public/fonts/Jost/Jost-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Bubblegum-Sans;
+    src: url('../../public/fonts/Bubblegum_Sans/BubblegumSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Patrick-Hand;
+    src: url('../../public/fonts/Patrick_Hand/PatrickHand-Regular.ttf');
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -13,10 +28,11 @@ body{
 }
 
 .main-tagline{
+    font-family: Jost;
     height: 70vh;
-    font-size: 8rem;
-    line-height: 70%;
-    font-weight: 900;
+    font-size: 9.4rem;
+    line-height: 82%;
+    font-weight: 700;
 }
 
 .gradient img{
@@ -25,4 +41,33 @@ body{
     left: 0;
     opacity: .5;
     z-index: -1;
+}
+
+.top-gradient img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    height: 25rem;
+
+}
+
+.nav-ul{
+    font-family: Bubblegum-Sans;
+    font-size: 1.2rem;
+}
+
+.product-group{
+    z-index: 999;
+    position: absolute;
+    width: 100%;
+}
+
+.product-group-child{
+    top: 50%;
+    right: 90%;
+}
+.product-group img {
+    width: 50rem;
 }

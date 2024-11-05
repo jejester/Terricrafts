@@ -20,7 +20,7 @@ function Navbar() {
                         <img src="/images/official.png" alt="Logo" className="h-14 w-18 pb-2 ml-4 dark:hidden" />
                         <img src="/images/official_logo.png" alt="Logo" className="h-14 w-18 pb-2 ml-4 hidden dark:block" />
                     </div>
-                    <div className="flex gap-10 text-zinc-900 dark:text-white">
+                    <div className="flex gap-10 text-red-500 dark:text-yellow-200 nav-ul text-lg">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Products/Pricing</a></li>
                         <li><a href="#">About Us</a></li>
