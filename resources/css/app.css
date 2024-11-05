@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+.main-tagline{
+    height: 70vh;
+    font-size: 8rem;
+    line-height: 70%;
+    font-weight: 900;
+}
+
+.gradient img{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    opacity: .5;
+    z-index: -1;
+}
