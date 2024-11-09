@@ -27,12 +27,16 @@ body{
     min-height: 100vh;
 }
 
-.main-tagline{
-    font-family: Jost;
-    height: 70vh;
-    font-size: 9.4rem;
+.main-tagline span.tagline{
+    font-family: Bubblegum-Sans;
     line-height: 82%;
     font-weight: 700;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-tagline p{
+    font-family: Jost;
+    transition: all 0.5s ease-out;
 }
 
 .gradient img{
@@ -53,21 +57,54 @@ body{
 
 }
 
+
 .nav-ul{
     font-family: Bubblegum-Sans;
     font-size: 1.2rem;
 }
 
-.product-group{
-    z-index: 999;
-    position: absolute;
-    width: 100%;
+.product-group{ 
+    z-index: 998;
 }
 
 .product-group-child{
-    top: 50%;
-    right: 90%;
 }
+
 .product-group img {
-    width: 50rem;
+    width: 60rem;
 }
+
+
+.navbar ul li{
+    transition: all .5s ease;
+}
+
+.navbar ul li:hover{
+    text-shadow: 0 0 15px #f38181; 
+}
+
+.sidebar{
+    position: absolute;
+    animation: slideFromTop .5s ease;
+    z-index: 999;
+}
+
+.theme svg{
+    transition: all .25s ease-in-out;
+}
+.theme svg:hover{
+    transform: translateY(-20%);
+}
+
+
+
+
+@keyframes slideFromTop {
+    10% {
+        transform: translateY(-10%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
