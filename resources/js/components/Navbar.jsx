@@ -26,7 +26,7 @@ function Navbar() {
 
     return (
         <>
-            <nav className="navbar flex items-center justify-between my-5 w-100 lg:mx-24">
+            <nav className="navbar flex items-center justify-between py-5 w-100 lg:mx-24">
                 <ul className="flex justify-between gap-5">
                     <div className="gap-10 text-red-500 dark:text-yellow-200 nav-ul text-lg hidden lg:flex justify-start w-40">
                         <li className=''><a href="#">Home</a></li>

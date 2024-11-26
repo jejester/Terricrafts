@@ -15,6 +15,8 @@ export default {
         extend: {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
+                bubblegum: ['Bubblegum-Sans', 'cursive'],
+                patrickHand: ['Patrick-Hand', 'sans-serif'],
             },
         },
     },

@@ -1,5 +1,6 @@
-import React from "react";
+import {React} from "react";
 import { ReactTyped } from "react-typed";
+
 
 function MainProductImages(){
     return(
@@ -8,9 +9,9 @@ function MainProductImages(){
                 <div className='product-group-child flex-1'>
                     <img src="./images/products/PRODUCT_GROUP.png" alt="" className="" />
                 </div>
-                <div className="main-tagline flex flex-col items-start justify-start text-balance flex-1 mt-5 px-1 mx-5 gap-5">
+                <div className="main-tagline flex flex-col items-center lg:items-start justify-start text-balance flex-1 mt-5 px-1 mx-5 gap-5">
                     <ReactTyped
-                        className="text-red-400 dark:text-yellow-200 text-4xl lg:text-8xl flex-1 tagline"
+                        className="text-red-400 dark:text-yellow-200 text-3xl lg:text-8xl flex-1 tagline"
                         strings={["MADE FOR YOU.", "MADE BY US ❤"]}
                         typeSpeed={80}
                         backSpeed={60}
@@ -23,6 +24,9 @@ function MainProductImages(){
                         or <span className="underline decoration-red-500 dark:decoration-yellow-100 font-semibold">branded materials</span>, 
                         we bring your vision to reality with precision and attention to detail. Using premium 
                         materials and state-of-the-art equipment, we ensure each product is beautifully crafted to suit your style and purpose.</p>
+                        <button class="mt-3 text-sm lg:text-md px-6 py-3 lg:px-8 rounded-full text-gray-900 bg-yellow-200 shadow-sm shadow-gray-300 hover:bg-yellow-300 hover:-translate-y-1 transition-all ease duration-300"> 
+                            EXPLORE NOW
+                        </button>
                 </div>
             </div>
         </>
