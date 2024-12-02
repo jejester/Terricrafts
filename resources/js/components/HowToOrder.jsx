@@ -46,7 +46,7 @@ function HowToOrder() {
             <div className="step-one flex items-center justify-start gap-2">
               <div className="how-to-desc basis-1/2 waves-section">
                 <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-white'>Slide into Our Inbox</h2>
-                <p className='text-white text-sm lg:text-xl text-pretty font-jost'>Got an idea? Message us on our social media to get started! 
+                <p className='text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Got an idea? Message us on our social media to get started! 
                   Share your vision, your design ideas, or just tell us what you need—we’re here to bring your imagination to life.</p>
               </div> 
               <div className="how-to-image basis-1/2">
@@ -64,7 +64,7 @@ function HowToOrder() {
               </div>
               <div className="basis-1/2">
                 <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-white'>Seal the Deal</h2>
-                <p className='text-white text-sm lg:text-xl text-pretty font-jost'>Once we finalize the design and details, it’s time to lock it in with a down payment. 
+                <p className='text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Once we finalize the design and details, it’s time to lock it in with a down payment. 
                   Don’t worry, we’ll guide you through every step, ensuring everything is crystal clear.</p>
               </div>
             </div>
@@ -76,7 +76,7 @@ function HowToOrder() {
             <div className="step-three flex items-center justify-start gap-2">
               <div className="how-to-desc basis-1/2">
                 <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-white'>We Work Our Magic</h2>
-                <p className='text-white text-sm lg:text-xl text-pretty font-jost'>Sit back, relax, and let us bring your request to life! From printing to cutting, 
+                <p className='text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Sit back, relax, and let us bring your request to life! From printing to cutting, 
                   we’ll craft your order with love and precision. Once it’s ready, we’ll let you know for pickup or delivery.</p>
               </div>
               <div className="how-to-image basis-1/2">

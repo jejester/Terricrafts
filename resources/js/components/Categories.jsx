@@ -61,10 +61,9 @@ function Categories(){
                         </div>
                     </div>
                 </motion.div>
-                {/* <div>
-                    <h1>All can be customized</h1>
-                    <h1>For your needs</h1>
-                </div> */}
+                <div>
+                    <p className="text-center lg:text-4xl mx-72 my-20 text-white font-patrickHand drop-shadow-md">Creative, unique, and crafted with care! From custom packaging to personalized designs, we bring your ideas to life with top-quality materials and expert precision. Perfect for any occasion or need!</p>
+                </div>
             </div>
         </>
     )

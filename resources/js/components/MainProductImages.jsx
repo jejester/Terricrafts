@@ -17,14 +17,14 @@ function MainProductImages(){
                         backSpeed={60}
                         loop={true}
                     ></ReactTyped>
-                    <p className="flex-1 align-middle text-slate-900 dark:text-white text-sm md:text-lg lg:text-lg tracking-wider text-justify">Bring your creative ideas to life with 
+                    <p className="flex-1 align-middle text-slate-800 dark:text-white text-sm md:text-lg lg:text-2xl tracking-wide text-justify">Bring your creative ideas to life with 
                         our <span className="text-red-900 dark:text-yellow-100">print and cut services</span>, 
                         designed for anyone who needs high-quality, custom-crafted products that make an impact. 
                         Whether it’s <span className="underline decoration-red-500 dark:decoration-yellow-100 italic">personalized packaging</span>, <span className="underline decoration-red-500 dark:decoration-yellow-100 font-medium">unique event decor</span>,
                         or <span className="underline decoration-red-500 dark:decoration-yellow-100 font-semibold">branded materials</span>, 
                         we bring your vision to reality with precision and attention to detail. Using premium 
                         materials and state-of-the-art equipment, we ensure each product is beautifully crafted to suit your style and purpose.</p>
-                        <button className="mt-3 text-sm lg:text-md px-6 py-3 lg:px-8 rounded-full text-gray-900 bg-yellow-200 shadow-sm shadow-gray-300 hover:bg-yellow-300 hover:-translate-y-1 transition-all ease duration-300"> 
+                        <button className="mt-3 font-bubblegum text-sm lg:text-lg px-6 py-3 lg:px-8 rounded-full text-gray-700 bg-yellow-200 shadow-sm shadow-gray-300 hover:bg-yellow-300 hover:-translate-y-1 transition-all ease duration-300"> 
                             EXPLORE NOW
                         </button>
                 </div>

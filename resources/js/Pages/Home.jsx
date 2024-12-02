@@ -8,6 +8,7 @@ import {Waves, WavesUp} from "@/components/ThemeIcons";
 import Categories from "@/components/Categories";
 import Banner from "@/components/Banner";
 import HowToOrder from "@/components/HowToOrder";
+import Footer from "@/components/Footer";
 
 function Home(){
     return (
@@ -27,6 +28,7 @@ function Home(){
             </div>
             <HowToOrder/>
             <Banner/>
+            <Footer/>
         </>
     ) 
 
