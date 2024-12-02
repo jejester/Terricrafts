@@ -17,6 +17,7 @@ export default {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
                 bubblegum: ['Bubblegum-Sans', 'cursive'],
                 patrickHand: ['Patrick-Hand', 'sans-serif'],
+                jost: ['Jost-Hand', 'sans-serif'],
             },
         },
     },

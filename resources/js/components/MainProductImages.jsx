@@ -24,7 +24,7 @@ function MainProductImages(){
                         or <span className="underline decoration-red-500 dark:decoration-yellow-100 font-semibold">branded materials</span>, 
                         we bring your vision to reality with precision and attention to detail. Using premium 
                         materials and state-of-the-art equipment, we ensure each product is beautifully crafted to suit your style and purpose.</p>
-                        <button class="mt-3 text-sm lg:text-md px-6 py-3 lg:px-8 rounded-full text-gray-900 bg-yellow-200 shadow-sm shadow-gray-300 hover:bg-yellow-300 hover:-translate-y-1 transition-all ease duration-300"> 
+                        <button className="mt-3 text-sm lg:text-md px-6 py-3 lg:px-8 rounded-full text-gray-900 bg-yellow-200 shadow-sm shadow-gray-300 hover:bg-yellow-300 hover:-translate-y-1 transition-all ease duration-300"> 
                             EXPLORE NOW
                         </button>
                 </div>

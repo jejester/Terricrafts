@@ -4,8 +4,10 @@ import MainTagline from "@/components/MainTagline";
 import Gradients from "@/components/Gradients";
 import MainProductImages from "@/components/MainProductImages";
 import Sidebar from "@/components/Sidebar";
-import {Waves} from "@/components/ThemeIcons";
+import {Waves, WavesUp} from "@/components/ThemeIcons";
 import Categories from "@/components/Categories";
+import Banner from "@/components/Banner";
+import HowToOrder from "@/components/HowToOrder";
 
 function Home(){
     return (
@@ -13,7 +15,6 @@ function Home(){
             <div className="main bg-yellow-50 dark:bg-blue-950">
                 <Navbar></Navbar>
                 <MainProductImages></MainProductImages>
-                {/* <Gradients></Gradients> */}
             </div>
             <div className="bg-yellow-50 dark:bg-blue-950">
                 <Waves></Waves>
@@ -21,6 +22,11 @@ function Home(){
             <div className="bg-red-400 dark:bg-slate-950">
                 <Categories></Categories>
             </div>
+            <div className="bg-blue-400 dark:bg-blue-950">
+                <WavesUp></WavesUp>
+            </div>
+            <HowToOrder/>
+            <Banner/>
         </>
     ) 
 
