@@ -50,7 +50,7 @@ function Navbar() {
                     </div>
                 </div>
             </nav>
-            <nav className="sidebar bg-sky-200 float-end right-0 min-h-max w-52 rounded-md mx-10 lg:hidden" id="sidebar">
+            <nav className="sidebar hidden bg-sky-200 float-end right-0 min-h-max w-52 rounded-md mx-10 lg:hidden" id="sidebar">
                 <ul className='flex flex-col justify-start items-start gap-2 p-4 text-gray-700'>
                     <li className='w-100 hover:bg-slate-500'><a href="#">Home</a></li>
                     <li><a href="#">Products</a></li>

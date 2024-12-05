@@ -30,12 +30,12 @@ function HowToOrder() {
   }, []);
   return (
     <>
-    <div className="bg-blue-400 dark:bg-blue-950 p-10 lg:p-20">
+    <div className="bg-yellow-50 dark:bg-blue-950 p-10 lg:p-20">
         <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate= {showTitle ? {opacity: 1, y: 0 } : {}}
         transition={{ duration: 1 }}>
-          <h1 className="title text-white text-center font-extrabold text-6xl lg:text-8xl drop-shadow-lg font-patrickHand my-20 lg:my-20 lg:mb-44">How to Order</h1>
+          <h1 className="title text-red-400 dark:text-yellow-200 text-center font-extrabold text-6xl lg:text-8xl drop-shadow-lg font-bubblegum my-20 lg:my-20 lg:mb-44">How to Order</h1>
         </motion.div>
 
         <div className="how-to flex flex-col gap-10 lg:gap-36">
@@ -45,8 +45,8 @@ function HowToOrder() {
           transition={{ duration: 1 }}>
             <div className="step-one flex items-center justify-start gap-2">
               <div className="how-to-desc basis-1/2 waves-section">
-                <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-white'>Slide into Our Inbox</h2>
-                <p className='text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Got an idea? Message us on our social media to get started! 
+                <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-red-400 dark:text-yellow-200'>Slide into Our Inbox</h2>
+                <p className='text-slate-900 dark:text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Got an idea? Message us on our social media to get started! 
                   Share your vision, your design ideas, or just tell us what you need—we’re here to bring your imagination to life.</p>
               </div> 
               <div className="how-to-image basis-1/2">
@@ -63,8 +63,8 @@ function HowToOrder() {
                 <img className='lg:h-96' src="./images/materials/deal.png" id="deal" alt="Message us" />
               </div>
               <div className="basis-1/2">
-                <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-white'>Seal the Deal</h2>
-                <p className='text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Once we finalize the design and details, it’s time to lock it in with a down payment. 
+                <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-red-400 dark:text-yellow-200'>Seal the Deal</h2>
+                <p className='text-slate-900 dark:text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Once we finalize the design and details, it’s time to lock it in with a down payment. 
                   Don’t worry, we’ll guide you through every step, ensuring everything is crystal clear.</p>
               </div>
             </div>
@@ -75,8 +75,8 @@ function HowToOrder() {
           transition={{ duration: 1 }}>
             <div className="step-three flex items-center justify-start gap-2">
               <div className="how-to-desc basis-1/2">
-                <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-white'>We Work Our Magic</h2>
-                <p className='text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Sit back, relax, and let us bring your request to life! From printing to cutting, 
+                <h2 className='text-2xl lg:text-7xl font-bubblegum font-bold text-red-400 dark:text-yellow-200'>We Work Our Magic</h2>
+                <p className='text-slate-900 dark:text-white text-sm lg:text-2xl text-pretty font-patrickHand'>Sit back, relax, and let us bring your request to life! From printing to cutting, 
                   we’ll craft your order with love and precision. Once it’s ready, we’ll let you know for pickup or delivery.</p>
               </div>
               <div className="how-to-image basis-1/2">

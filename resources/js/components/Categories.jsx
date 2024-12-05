@@ -12,7 +12,7 @@ function Categories(){
                 const element = document.querySelector(selector);
                 if (element) {
                     const rect = element.getBoundingClientRect();
-                    const isInView = rect.top < window.innerHeight + 100;
+                    const isInView = rect.top < window.innerHeight - 100;
                     setState(isInView);
                 }
             };
@@ -26,13 +26,13 @@ function Categories(){
     }, []);
     return(
         <>
-            <div className="product-categories flex flex-col items-center justify-center p-10 lg:p-20">
+            <div className="product-categories flex flex-col items-center justify-center p-10 lg:p-20 bg-red-400 dark:bg-slate-950">
                 <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 animate= {showTitle ? {opacity: 1, y: 0 } : {}}
                 transition={{ duration: 1 }}>
                     <div className="header">
-                        <h1 className="showcase-title text-white text-center font-extrabold text-6xl lg:text-8xl drop-shadow-lg font-patrickHand m-10"> Our crafts</h1>
+                        <h1 className="showcase-title text-white text-center font-extrabold text-6xl lg:text-8xl drop-shadow-lg font-bubblegum m-10"> Our crafts</h1>
                     </div>
                 </motion.div>
                 
@@ -41,28 +41,28 @@ function Categories(){
                 animate= {showTitle ? {opacity: 1, y: 0 } : {}}
                 transition={{ duration: 0.9 }}>
                     <div className="body-card grid grid-rows-1 gap-2 md:grid-cols-3 rounded mb-5">
-                        <div className="card p-10 hover:rounded-lg  hover:scale-105 transition-all ease-in">
+                        <div className="card p-10 hover:rounded-lg  hover:scale-105 hover:rotate-12 transition-all ease-in">
                             <img src="./images/products/5.png" alt="" className="h-70 md:h-90 md:w-96  rounded-lg shadow-lg hover:shadow-2xl transition-shadow ease-in-out object-cover" />
                         </div>
-                        <div className="card p-10 hover:rounded-lg  hover:scale-105 transition-all ease-in">
+                        <div className="card p-10 hover:rounded-lg  hover:scale-105 hover:-translate-y-5 transition-all ease-in">
                             <img src="./images/products/6.png" alt="" className="h-70 md:h-90 md:w-96  rounded-lg shadow-lg hover:shadow-2xl transition-shadow ease-in-out object-cover" />
                         </div>
-                        <div className="card p-10 hover:rounded-lg  hover:scale-105 transition-all ease-in">
+                        <div className="card p-10 hover:rounded-lg  hover:scale-105 hover:-rotate-12 transition-all ease-in">
                             <img src="./images/products/7.png" alt="" className="h-70 md:h-90 md:w-96  rounded-lg shadow-lg hover:shadow-2xl transition-shadow ease-in-out object-cover" />
                         </div>
-                        <div className="card p-10 hover:rounded-lg  hover:scale-105 transition-all ease-in">
+                        <div className="card p-10 hover:rounded-lg  hover:scale-105 hover:rotate-12 transition-all ease-in">
                             <img src="./images/products/8.png" alt="" className="h-70 md:h-90 md:w-96  rounded-lg shadow-lg hover:shadow-2xl transition-shadow ease-in-out object-cover" />
                         </div>
-                        <div className="card p-10 hover:rounded-lg  hover:scale-105 transition-all ease-in">
+                        <div className="card p-10 hover:rounded-lg  hover:scale-105 hover:translate-y-5 transition-all ease-in">
                             <img src="./images/products/1.png" alt="" className="h-70 md:h-90 md:w-96  rounded-lg shadow-lg hover:shadow-2xl transition-shadow ease-in-out object-cover" />
                         </div>
-                        <div className="card p-10 hover:rounded-lg  hover:scale-105 transition-all ease-in">
+                        <div className="card p-10 hover:rounded-lg  hover:scale-105 hover:-rotate-12 transition-all ease-in">
                             <img src="./images/products/2.png" alt="" className="h-70 md:h-90 md:w-96  rounded-lg shadow-lg hover:shadow-2xl transition-shadow ease-in-out object-cover" />
                         </div>
                     </div>
                 </motion.div>
                 <div>
-                    <p className="text-center lg:text-4xl mx-72 my-20 text-white font-patrickHand drop-shadow-md">Creative, unique, and crafted with care! From custom packaging to personalized designs, we bring your ideas to life with top-quality materials and expert precision. Perfect for any occasion or need!</p>
+                    <p className="text-center lg:text-4xl xl:mx-72 lg:my-20 text-white font-patrickHand drop-shadow-md">Creative, unique, and crafted with care! From custom packaging to personalized designs, we bring your ideas to life with top-quality materials and expert precision. Perfect for any occasion or need!</p>
                 </div>
             </div>
         </>
