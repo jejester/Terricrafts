@@ -30,7 +30,7 @@ function HowToOrder() {
   }, []);
   return (
     <>
-    <div className="bg-yellow-50 dark:bg-blue-950 p-10 lg:p-20">
+    <div className="order-instructions bg-yellow-50 dark:bg-blue-950 p-10 lg:p-20 relative bg-graph-light bg-1000px dark:bg-graph-dark">
         <motion.div
         initial={{ opacity: 0, y: -50 }}
         animate= {showTitle ? {opacity: 1, y: 0 } : {}}
@@ -40,7 +40,7 @@ function HowToOrder() {
 
         <div className="how-to flex flex-col gap-10 lg:gap-36">
           <motion.div
-          initial={{ opacity: 0, x: -150 }}
+          initial={{ opacity: 1, x: -150 }}
           animate={showStepOne ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}>
             <div className="step-one flex items-center justify-start gap-2">
@@ -55,7 +55,7 @@ function HowToOrder() {
             </div>
           </motion.div>
           <motion.div
-          initial={{ opacity: 0, x: 150 }}
+          initial={{ opacity: 1, x: 150 }}
           animate={showStepTwo ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}>
             <div className="step-two flex items-center justify-end">
@@ -70,7 +70,7 @@ function HowToOrder() {
             </div>
           </motion.div>
           <motion.div
-          initial={{ opacity: 0, x: -150 }}
+          initial={{ opacity: 1, x: -150 }}
           animate={showStepThree ? { opacity: 1, x: 0 } : {}}
           transition={{ duration: 1 }}>
             <div className="step-three flex items-center justify-start gap-2">
@@ -85,6 +85,9 @@ function HowToOrder() {
             </div>
           </motion.div>
         </div>
+        <div className="absolute -z-50 md:-top-20 left-0"> 
+                        <img className="opacity-30 dark:opacity-5" src="./images/decorations/graph-light.png" alt="" />                     
+                    </div>
     </div>
     </>
   )

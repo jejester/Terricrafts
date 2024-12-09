@@ -55,6 +55,11 @@
 
 }
 
+nav{
+    position:sticky;
+    z-index: 999;
+}
+
 
 .nav-ul{
     font-family: Bubblegum-Sans;
@@ -93,6 +98,12 @@
 .theme svg:hover{
     transform: translateY(-20%);
 }
+
+/* .order-instructions{
+    background-image: url('../../public/images/decorations/graph-lighter.png');
+    background-size: cover;
+    background-size: 1000px;
+} */
 
 /* .how-to img#message-us{
     border: 1px solid #f38181;
