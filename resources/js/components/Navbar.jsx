@@ -26,11 +26,11 @@ function Navbar() {
 
     return (
         <>
-            <nav className="navbar flex items-center justify-between py-5 w-100 lg:mx-24">
+            <nav className="navbar flex items-center justify-between py-5 w-100 lg:px-24 bg-yellow-50 dark:bg-blue-950">
                 <ul className="flex justify-between gap-5">
                     <div className="gap-10 text-red-500 dark:text-yellow-200 nav-ul text-lg hidden lg:flex justify-start w-40">
-                        <li className=''><a href="#">Home</a></li>
-                        <li className=''><a href="#">Products</a></li>
+                        <li className=''><a href="/">Home</a></li>
+                        <li className=''><a href="/products">Products</a></li>
                         <li className=''><a href="#">About</a></li>
                         <li className=''><a href="#">Contact</a></li>
                     </div>

@@ -26,7 +26,7 @@ function Categories(){
     }, []);
     return(
         <>
-            <div className="product-categories flex flex-col items-center justify-center p-10 lg:p-20 bg-red-400 dark:bg-slate-950">
+            <div className="product-categories flex flex-col items-center justify-center p-10 lg:p-20 bg-red-400 dark:bg-slate-950 bg-dots dark:bg-dots-dark">
                 <motion.div
                 initial={{ opacity: 0, y: -50 }}
                 animate= {showTitle ? {opacity: 1, y: 0 } : {}}
