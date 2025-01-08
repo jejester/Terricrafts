@@ -6,17 +6,17 @@
 
 @font-face {
     font-family: Jost;
-    src: url('../../public/fonts/Jost/Jost-VariableFont_wght.ttf');
+    src: url('/fonts/Jost/Jost-VariableFont_wght.ttf');
 }
 
 @font-face {
     font-family: Bubblegum-Sans;
-    src: url('../../public/fonts/Bubblegum_Sans/BubblegumSans-Regular.ttf');
+    src: url('/fonts/Bubblegum_Sans/BubblegumSans-Regular.ttf');
 }
 
 @font-face {
     font-family: Patrick-Hand;
-    src: url('../../public/fonts/Patrick_Hand/PatrickHand-Regular.ttf');
+    src: url('/fonts/Patrick_Hand/PatrickHand-Regular.ttf');
 }
 
 *{
