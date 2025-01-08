@@ -1,0 +1,152 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: Jost;
+    src: url('../../public/fonts/Jost/Jost-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: Bubblegum-Sans;
+    src: url('../../public/fonts/Bubblegum_Sans/BubblegumSans-Regular.ttf');
+}
+
+@font-face {
+    font-family: Patrick-Hand;
+    src: url('../../public/fonts/Patrick_Hand/PatrickHand-Regular.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+.main-tagline span.tagline{
+    font-family: Bubblegum-Sans;
+    line-height: 82%;
+    font-weight: 700;
+    transition: all 0.5s ease-in-out;
+}
+
+.main-tagline p{
+    font-family: Patrick-Hand;
+    transition: all 0.5s ease-out;
+}
+
+.gradient img{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    opacity: .5;
+    z-index: -1;
+}
+
+.top-gradient img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    opacity: .3;
+    z-index: -1;
+    height: 25rem;
+
+}
+
+nav{
+    position:sticky;
+    z-index: 999;
+}
+
+
+.nav-ul{
+    font-family: Bubblegum-Sans;
+    font-size: 1.2rem;
+}
+
+.product-group{ 
+    z-index: 998;
+}
+
+
+.product-group img {
+    width: 60rem;
+}
+
+
+.navbar ul li{
+    transition: all .5s ease;
+}
+
+.navbar ul li:hover{
+    text-shadow: 0 0 15px #f38181; 
+}
+
+.sidebar{
+    position: absolute;
+    animation: slideFromTop .5s ease;
+    z-index: 999;
+}
+
+.theme svg{
+    transition: all .25s ease-in-out;
+}
+.theme svg:hover{
+    transform: translateY(-20%);
+}
+
+/* .order-instructions{
+    background-image: url('../../public/images/decorations/graph-lighter.png');
+    background-size: cover;
+    background-size: 1000px;
+} */
+
+/* .how-to img#message-us{
+    border: 1px solid #f38181;
+    border-radius: 49% 51% 67% 33% / 26% 60% 40% 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    background-color: #f38181;
+}
+
+.how-to img#deal{
+    border: 1px solid #f38181;
+    border-radius: 67% 33% 56% 44% / 42% 49% 51% 58%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    background-color: #f38181;
+}
+
+.how-to img#final{
+    border: 1px solid #f38181;
+    border-radius: 49% 51% 67% 33% / 26% 60% 40% 100%;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    background-color: #f38181;
+} */
+
+
+
+@keyframes slideFromTop {
+    10% {
+        transform: translateY(-50%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: .5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
